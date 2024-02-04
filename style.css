@@ -4,7 +4,7 @@
 }
 
 .cat img {
-    height: 30vh;
+    height: 50vh;
 }
 
 .center {
@@ -32,7 +32,7 @@
 @keyframes yes {
     0% {
         transform: scale(1.2);
-        border: 10px solid rgb(255, 176, 240);
+        border: 20px solid rgb(255, 176, 240);
     }
     30% {
         transform: scale(1.5);
@@ -60,19 +60,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: ease 3s;
 }
 
-.no-btn:hover {
-    transform: translateY(1000px);
+.no-btn.clicked {
+    transform: translateX(0) translateY(0);
 }
 
 .yes, .no {
     background-color: rgb(0, 201, 0);
-    height: 50px;
-    width: 200px;
+    height: 100px;
+    width: 250px;
     color: white;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bolder;
     border: 0;
     border-radius: 30px;
