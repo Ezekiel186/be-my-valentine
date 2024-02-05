@@ -1,6 +1,7 @@
 document.querySelector('.yes').addEventListener('click', function(){
     document.getElementById('happy').play();
     document.querySelector('.image').src = "./images/happy.gif";
+    document.querySelector('.question').classList.add('hide');
 });
 
 var no = document.querySelector('.no');

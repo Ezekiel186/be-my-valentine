@@ -7,6 +7,15 @@
     height: 50vh;
 }
 
+.question {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 10px;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -68,8 +77,8 @@
 
 .yes, .no {
     background-color: rgb(0, 201, 0);
-    height: 100px;
-    width: 250px;
+    height: 75px;
+    width: 200px;
     color: white;
     font-size: xx-large;
     font-weight: bolder;
@@ -79,4 +88,8 @@
 
 .no {
     background-color: red;
+}
+
+.hide {
+    display: none;
 }
